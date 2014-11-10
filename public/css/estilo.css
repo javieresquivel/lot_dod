@@ -1,0 +1,315 @@
+.articulo_separadores{
+	border-left: 2px solid #DADBDE;
+	border-right: 2px solid #DADBDE;
+}
+
+.border_left{
+	border-left: 4px solid #D9DADE;
+}
+
+.boton_noticia{
+	color: #3B9C4B;
+	background: white;
+	border: 2px solid #3B9C4B;
+	float: right;
+	margin-right: 25px;
+	padding: 5px 10px;
+}
+
+.boton_noticia:hover{
+	color: white;
+	background: #62AA49;
+}
+
+.caja_blanca{
+	background: white;
+	box-shadow: 0px 8px 5px #e8e8e8;
+	border-radius: 7px;
+	margin: 0 auto;
+	height: 180px;
+	width: 300px;
+}
+
+
+.caja_centro{
+	margin-top: 12px;
+}
+
+.caja_derecha{
+	margin-top: 40px;
+}
+
+.contenido{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1081px;
+}
+.contenido .img_promo{
+	margin-left: 45px;
+	vertical-align: top;	
+	width: 620px;
+}
+
+.contenedor article{
+	
+	font-family: 'Signika';
+	margin-top: 4px;
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+.columna_3{
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+}
+
+.columna_1{
+	display: inline-block;
+	width: 64%;
+}
+
+.contenedor p{
+	color: #79787D;
+	font-size: 16pt;
+}
+
+.contenido_noticia{
+	color: #87858A;
+	font-size: 14px;
+	text-align: justify;
+	padding-right: 25px;
+	margin-bottom: 10px;
+}
+
+.fecha{
+	color: #3B9C4B;
+	font-size: 12pt;
+}
+
+.mayuscula_negrilla{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.dos_columnas{
+	margin-left: 60px;
+}
+
+.dos_columnas input[type=text]{
+	margin-top: 10px;
+	width: 67px;
+}
+
+.enlaces{
+	background-image: url(../img/textura_1.png); 
+	height: 384px;
+	margin-top: 50px;
+	min-width: 1124px;
+	-webkit-box-shadow: inset 0px 3px 6px 2px rgba(232,232,232,1);
+	-moz-box-shadow: inset 0px 3px 6px 2px rgba(232,232,232,1);
+	box-shadow: inset 0px 3px 6px 2px rgba(232,232,232,1);
+}
+
+.etiqueta_separador{
+	color: white;
+	display: inline-block;
+	margin-top: 3px;
+	
+	text-shadow: 4px 4px 2px #7A1818;
+}
+
+.etiqueta_separador .numero, .etiqueta_comprar{
+	background: #dc4138; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dc4138 0%, #cd331d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dc4138), color-stop(100%,#cd331d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dc4138 0%,#cd331d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dc4138 0%,#cd331d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dc4138 0%,#cd331d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dc4138 0%,#cd331d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc4138', endColorstr='#cd331d',GradientType=0 ); /* IE6-9 */
+	border-radius: 9px;
+	display: inline-block;
+	padding: 3px 10px;
+}
+
+.etiqueta_comprar{
+	padding-right: 25px;
+	text-shadow: 4px 4px 2px #7A1818;
+}
+
+.signo_pesos{
+	background: #AB1113;
+	border-radius: 20px;
+	border-right: 2px solid #680807;
+	display: inline-block;
+	padding: 5px 15px;
+	margin-left: -25px;
+}
+
+.etiqueta_siguenos{
+	color: #77767B;
+	font-family: 'Signika', sans-serif;
+	font-size: 20pt;
+	margin-left: 35px;
+}
+
+.form_ganador input[type=submit]{
+	color: white;
+	background: #6caf44; /* Old browsers */
+	background: -moz-linear-gradient(top,  #6caf44 0%, #4c9832 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6caf44), color-stop(100%,#4c9832)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #6caf44 0%,#4c9832 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #6caf44 0%,#4c9832 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #6caf44 0%,#4c9832 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #6caf44 0%,#4c9832 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6caf44', endColorstr='#4c9832',GradientType=0 ); /* IE6-9 */
+	border-top: #539D36;
+	border-left: #539D36;
+	border-bottom: 3px solid #568551;
+	border-right: 3px solid #568551;
+	border-radius: 5px;
+	margin-left: 115px;
+	margin-top: 20px;
+	padding: 5px 20px;
+}
+
+.icon_calendar{
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.form_ganador{
+	background: url(../img/ganador.png);
+	background-repeat: no-repeat;
+	height: 237px;
+	margin-left: 20px;
+	width: 325px;
+}
+
+.form_ganador input[type=text]{
+	border-style: none;
+	border-radius: 7px;
+	box-shadow: 2px 2px 1px #D9D9DA;
+	padding: 8px;
+}
+
+.img_promo, aside{
+	display: inline-block;
+}
+
+.icon_calendar{
+	position: absolute;
+}
+
+.logos{
+	text-align: center;
+}
+
+.logos img{
+	margin-right: 20px;
+	width: 150px;
+}
+
+.logos ul{
+	border-top: 4px solid #D9DADE;
+	padding-top: 10px;
+}
+
+.margin_top_100{
+	margin-left: 60px;
+	margin-top: 100px;
+	width: 190px;
+}
+
+.margin_top_50{
+	margin-top: 50px;
+}
+
+.margin_left_35{
+	margin-left: 40px;
+}
+
+.noticias{
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.noticias .titulo{
+	color: #3B9C4B;
+	font-weight: bold;
+}
+
+.anuncio_noticia{
+	margin-bottom: 57px;
+	margin-right: 8px;
+}
+
+.padding{
+	padding-left: 15px;
+}
+
+.paginador_circulos{
+	text-align: center;
+}
+
+.paginador_circulos .circulo{
+	background: #C1C3C8;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	height: 10px;
+	margin-right: 10px;
+	width: 10px;
+}
+
+.paginador_circulos .active{
+	background: #3B9C4B;
+}
+
+.redes_seccion img{
+	margin-right: 25px;
+}
+
+.redes_seccion{
+	margin-left: 40px;
+}
+
+.separador{
+	background-image: url(../img/separador.png);
+	background-repeat: no-repeat; 
+	height: 35px;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+.separador_visitantes{
+	height: 50px;
+	background: #cb2c29; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cb2c29 0%, #9c211a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb2c29), color-stop(100%,#9c211a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cb2c29 0%,#9c211a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cb2c29 0%,#9c211a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cb2c29 0%,#9c211a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cb2c29 0%,#9c211a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb2c29', endColorstr='#9c211a',GradientType=0 ); /* IE6-9 */
+	font-family: 'Signika';
+	font-weight: bold;
+	font-size: 19pt;
+	color: white;
+	min-width: 1124px;
+}
+
+.sorteo_en_vivo{
+	margin-top: 40px;
+}
+
+.titulo_noticia{
+	color: #87858A;
+	font-weight: bold;
+	font-size: 13pt;
+	margin-bottom: 10px;
+}
+
+	
