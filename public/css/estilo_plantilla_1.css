@@ -1,3 +1,62 @@
+.archivos_descarga{
+	border: 3px solid #EDEEF0;
+	
+}
+
+.archivos_descarga .archivos{
+	background: #F3F4F5;
+	padding: 20px;
+}
+
+.archivos_descarga .links_archivos, .archivos_descarga .archivos{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.archivos_descarga .archivos{
+	width: 80%;
+}
+
+.inline_block{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.documento img{
+	display: block;
+	width: 14px;
+}
+
+.archivos_descarga span{
+	color: #9A999D;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	margin-bottom: 10px;
+}
+
+.doc_titulo{
+	width: 90%;
+}
+
+.btn_descarga{
+	position: absolute;
+	margin-left: 90px;
+}
+
+.btn_volver{
+    margin-right: 30px;
+    text-align: right; 
+}
+
+.btn_volver a{
+    color: #918F94;   
+}
+
+.btn_volver img{
+    vertical-align: middle;
+    width: 25px;   
+}
+
 .centrado{
 	text-align: center;
 }
@@ -32,6 +91,15 @@
 .fondo_gris{
 	background: #FBFBFC;
 	padding: 20px;
+}
+
+.fondo_gris p{
+	font-size: 13pt;
+	margin-bottom: 7px;
+}
+
+.fondo_gris h3{
+	color: #3B9C4B;
 }
 
 .menu_lateral{
@@ -82,4 +150,176 @@
 
 .menu_lateral ul{
 	width: 90%;
+}
+img {
+    
+}
+
+.img_usuario {
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+}
+
+.info_usuario {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.borde_inferior {
+    border-bottom: 3px solid #D8D9DC;
+    margin: 0 30px;
+    padding-bottom: 15px;
+}
+
+.paginador {
+    margin-left: 30px;
+    text-align: center;
+    width: 77%
+}
+
+.paginador a{
+    color: #79787D;
+}
+
+
+.contenido .fecha_sorteo {
+    font-family: 'Signika';
+}
+
+
+
+.form_sorteos {
+    background: #E3E3E5;
+    padding: 15px;
+    position: absolute;
+    width: 647px;
+}
+
+.form_sorteos input[type=text]{
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 3px 2px #CDCDCE;
+    margin-left: 5px;
+    padding: 4px 10px;
+}
+
+.form_sorteos .numero{
+    width: 150px    
+}
+
+.form_sorteos .serie{
+    width: 80px    
+}
+
+.form_sorteos .fecha{
+    width: 80px    
+}
+
+.form_sorteos span{
+    color: #619C47; 
+    font-size: 13.5pt
+} 
+
+.btn_buscar {
+    color: white;
+    background: #6caf44;
+    background: -moz-linear-gradient(top, #6caf44 0%, #4c9832 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6caf44), color-stop(100%,#4c9832));
+    background: -webkit-linear-gradient(top, #6caf44 0%,#4c9832 100%);
+    background: -o-linear-gradient(top, #6caf44 0%,#4c9832 100%);
+    background: -ms-linear-gradient(top, #6caf44 0%,#4c9832 100%);
+    background: linear-gradient(to bottom, #6caf44 0%,#4c9832 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6caf44', endColorstr='#4c9832',GradientType=0 );
+    border-top: #539D36;
+    border-left: #539D36;
+    border-bottom: 3px solid #568551;
+    border-right: 3px solid #568551;
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+
+.btn_buscar span{
+    top:5px;
+}
+
+.btn_buscar span{
+    color: white;
+}
+
+
+
+.titulo_premio {
+    font-size: 13pt;
+    background-image: url(../img/banner_titulo.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    padding: 10px 25px;
+}
+
+.font_size{
+font-size: 20pt;
+margin-left: 75px
+}
+
+.titulo_premio span{
+    color: white;
+    font-family: 'Bree Serif', serif;     
+    text-shadow: 2px 2px #004535;
+    display: block;    
+    margin-bottom: -5px
+}
+
+
+
+.tabla_premios {
+    box-shadow: 3px 3px 3px #E8E8E9;
+    width: 100%;
+}
+
+.border_izquierda{
+    border-top-left-radius: 7px;
+}
+
+.border_derecha{
+    border-top-right-radius: 7px;
+}
+
+.border_abajo_izquierda{
+    box-shadow: -1px 3px 3px #E8E8E9;
+    border-bottom-left-radius: 7px;
+}
+
+.border_abajo_derecha{
+    border-bottom-right-radius: 7px;
+     box-shadow: 3px 3px 3px #E8E8E9;
+}
+
+.tabla_premios th{
+    
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.tabla_premios td{
+    border: 1px solid #EDEEF0;
+    color: #79787D;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+
+.margin_boottom_35 {
+    margin-bottom: 35px;
+}
+
+.gris_claro {
+    background: #9C9BA0;
+}
+
+.gris_oscuro {
+    background: #8C8B90
 }

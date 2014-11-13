@@ -23,6 +23,10 @@
 	margin-top: 20px;
 	width: 1081px;
 }
+
+.contenido h1{
+    margin-bottom: 1px;
+}
 .contenido .img_promo{
 	margin-left: 45px;
 	vertical-align: top;	
@@ -54,43 +58,6 @@
 .dos_columnas input[type=text]{
 	margin-top: 10px;
 	width: 67px;
-}
-
-
-.etiqueta_separador{
-	color: white;
-	display: inline-block;
-	margin-top: 3px;
-	
-	text-shadow: 4px 4px 2px #7A1818;
-}
-
-.etiqueta_separador .numero, .etiqueta_comprar{
-	background: #dc4138; /* Old browsers */
-	background: -moz-linear-gradient(top,  #dc4138 0%, #cd331d 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dc4138), color-stop(100%,#cd331d)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #dc4138 0%,#cd331d 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #dc4138 0%,#cd331d 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #dc4138 0%,#cd331d 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #dc4138 0%,#cd331d 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dc4138', endColorstr='#cd331d',GradientType=0 ); /* IE6-9 */
-	border-radius: 9px;
-	display: inline-block;
-	padding: 3px 10px;
-}
-
-.etiqueta_comprar{
-	padding-right: 25px;
-	text-shadow: 4px 4px 2px #7A1818;
-}
-
-.signo_pesos{
-	background: #AB1113;
-	border-radius: 20px;
-	border-right: 2px solid #680807;
-	display: inline-block;
-	padding: 5px 15px;
-	margin-left: -25px;
 }
 
 .etiqueta_siguenos{
@@ -148,25 +115,7 @@
 	position: absolute;
 }
 
-.logos{
-	text-align: center;
-}
 
-.logos img{
-	margin-right: 20px;
-	width: 150px;
-}
-
-.logos ul{
-	border-top: 4px solid #D9DADE;
-	padding-top: 10px;
-}
-
-.margin_top_100{
-	margin-left: 60px;
-	margin-top: 100px;
-	width: 190px;
-}
 
 .margin_left_35{
 	margin-left: 40px;
@@ -224,25 +173,6 @@
 	margin-left: 120px;
 	margin-top: 50px;
 }
-
-.separador_visitantes{
-	height: 50px;
-	background: #cb2c29; /* Old browsers */
-	background: -moz-linear-gradient(top,  #cb2c29 0%, #9c211a 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb2c29), color-stop(100%,#9c211a)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #cb2c29 0%,#9c211a 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  #cb2c29 0%,#9c211a 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  #cb2c29 0%,#9c211a 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  #cb2c29 0%,#9c211a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb2c29', endColorstr='#9c211a',GradientType=0 ); /* IE6-9 */
-	font-family: 'Signika';
-	font-weight: bold;
-	font-size: 19pt;
-	color: white;
-	min-width: 1124px;
-}
-
-
 
 .titulo_noticia{
 	color: #87858A;
