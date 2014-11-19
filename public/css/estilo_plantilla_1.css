@@ -44,7 +44,7 @@
 }
 
 .btn_volver{
-    margin-right: 30px;
+   
     text-align: right; 
 }
 
@@ -74,11 +74,13 @@
 
 .contenido h1{
 	color: #3B9C4B;
+	font-family: 'Signika', helvetica;
 	font-size: 22pt;
 }
 
 .contenido h2{
 	color: #8A898E;
+	font-family: 'Signika', helvetica;
 	margin-bottom: 20px;
 }
 
@@ -99,6 +101,7 @@
 }
 
 .fondo_gris h3{
+	font-family: 'Signika';
 	color: #3B9C4B;
 }
 
@@ -115,7 +118,8 @@
 	box-shadow: 3px 3px 3px #EFEFEF;
 	margin-bottom: 10px;
 	padding: 7px 15px;
-	width: 100%
+	width: 100%;
+	
 }
 
 .menu_lateral a:hover{
@@ -213,7 +217,7 @@ img {
     width: 80px    
 }
 
-.form_sorteos .fecha{
+.fecha{
     width: 80px    
 }
 
@@ -322,4 +326,106 @@ margin-left: 75px
 
 .gris_oscuro {
     background: #8C8B90
+}
+
+.filtros_directorio {
+    background: #E5E6E9;
+    border-radius: 7px;
+    color: #959398;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.filtros_directorio select, .filtros_directorio option{
+    border: none;
+    cursor: pointer;
+    color: #959398;
+    margin-left: -4px;
+    padding: 6px;
+    width: 160px;
+}
+
+.filtros_directorio span{
+    margin-right: 20px;    
+}
+
+.gris_claro_select {
+    background: #F9F9FA;
+}
+
+.gris_oscuro_select {
+    background: #E5E6E9;
+}
+
+.btn_buscar {
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    width: 60px;
+}
+
+.btn_buscar span{  
+    top: 2px;
+    margin-left: 18px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.ancho_320 {
+    width: 320px;
+}
+
+.font_normal {
+    font-weight: normal;
+}
+
+.fuente_openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.margin_bottom_20 {
+    margin-bottom: 20px;
+}
+
+.width_30 {
+    width: 30%;
+}
+
+.width_65 {
+    width: 65%
+}
+
+.margin_right_18 {
+	margin-right: 18px;
+}
+
+.padding_25 {
+	padding-right: 25px;
+}
+
+.margin_bottom_10 {
+	margin-bottom: 10px;
+}
+
+.compartir_redes {
+	height: 45px;
+	width: 88%;
+}
+
+.compartir_redes img{
+	margin-left: 5px;
+	width: 35px;
+}
+
+
+
+
+
+.subtitulo {
+	color: #79787D;
+	display: block;
+	font-family: 'Signika';
+	margin-bottom: 20px;
 }

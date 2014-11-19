@@ -5,10 +5,13 @@
 .boton_noticia{
 	color: #3B9C4B;
 	background: white;
-	border: 2px solid #3B9C4B;
+	border: 1px solid #3B9C4B;
 	float: right;
-	margin-right: 25px;
 	padding: 5px 10px;
+	-o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .boton_noticia:hover{
@@ -42,12 +45,13 @@
 	color: #87858A;
 	font-size: 14px;
 	text-align: justify;
-	padding-right: 25px;
+
 	margin-bottom: 10px;
 }
 
 .fecha{
 	color: #3B9C4B;
+	font-family: 'Signika', helvetica;
 	font-size: 12pt;
 }
 
@@ -83,8 +87,16 @@
 	border-right: 3px solid #568551;
 	border-radius: 5px;
 	margin-left: 115px;
-	margin-top: 20px;
+	margin-top: 10px;
 	padding: 5px 20px;
+}
+
+.form_ganador input[type=submit]:hover{	
+background: #6caf44;
+}
+
+.form_ganador input[type=submit]:active{	
+background: #4c9832;
 }
 
 .icon_calendar{
@@ -176,9 +188,20 @@
 
 .titulo_noticia{
 	color: #87858A;
+	font-family: 'Signika', helvetica;
 	font-weight: bold;
 	font-size: 13pt;
 	margin-bottom: 10px;
 }
 
 	
+.justificado{
+	text-align: justify;
+}
+.padding_25 {
+	padding-right: 20px;
+}
+
+.margin_right_15 {
+	margin-right: 15px;
+}
