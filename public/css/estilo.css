@@ -71,7 +71,7 @@
 	margin-left: 35px;
 }
 
-.form_ganador input[type=submit]{
+.contratos input[type=button], .form_ganador input[type=submit]{
 	color: white;
 	background: #6caf44; /* Old browsers */
 	background: -moz-linear-gradient(top,  #6caf44 0%, #4c9832 100%); /* FF3.6+ */
