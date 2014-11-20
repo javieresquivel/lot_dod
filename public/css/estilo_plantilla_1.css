@@ -301,10 +301,12 @@ margin-left: 75px
 }
 
 .tabla_premios th{
-    
-    color: white;
     padding: 5px 10px;
     text-align: center;
+}
+
+.th_blanco th{
+	color: white;	
 }
 
 .tabla_premios td{
@@ -469,4 +471,27 @@ table .verde_claro {
 .tabla_contratos {
 	font-family: 'Signika', sans-serif;
 	font-size: 11px;
+}
+
+.gris_blanco {
+	background: #F3F4F5;
+	color: #8A898E;
+}
+
+
+.tabla_fila_border th, .tabla_fila_border td{
+	border-bottom: 1px solid #DBDDDE;
+	text-align: left;
+}
+
+.tabla_fila_border th{
+width: 30%;
+}
+
+.peso_archivo {
+	margin-left: 110px;
+}
+
+.peso_archivo:after {
+	content: " kb";
 }
