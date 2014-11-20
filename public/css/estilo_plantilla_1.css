@@ -451,5 +451,22 @@ width: 95%
 }
 
 .fecha_contratacion .btn_primary_verde{
+		width: 48%;
+}
 
+table .verde_medio {
+	background: #61A041;
+}
+
+table .verde_oscuro {
+	background: #4B9338;
+}
+
+table .verde_claro {
+	background: #84B943;
+}
+
+.tabla_contratos {
+	font-family: 'Signika', sans-serif;
+	font-size: 11px;
 }
